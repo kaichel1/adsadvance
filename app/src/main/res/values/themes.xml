@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TravelBooking" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.TravelBooking.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TravelBooking.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TravelBooking.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="TabAuth">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">#707070</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="open_sans">
+        <item name="fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="open_sans.14grey">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#A7ADBF</item>
+    </style>
+
+    <style name="open_sans.14Black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#434A5E</item>
+    </style>
+
+    <style name="open_sans.11grey">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#A7ADBF</item>
+    </style>
+
+    <style name="open_sans.9grey">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">#A7ADBF</item>
+    </style>
+
+    <style name="open_sans.11blue">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#9F55FF</item>
+    </style>
+
+    <style name="open_sans.17black">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="open_sans.31black">
+        <item name="android:textSize">31sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="open_sans.18white">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="open_sans.12black">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="open_sans.14black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="open_sans.16black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+</resources>

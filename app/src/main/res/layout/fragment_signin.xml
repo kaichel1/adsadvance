@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".ui.auth.signin.SigninFragment">
+
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/open_sans.14grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sp_rectangle_radius_20_outline_707070"
+        android:drawableStart="@drawable/ic_outline_email_24"
+        android:drawablePadding="12dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:padding="13dp" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        style="@style/open_sans.14grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sp_rectangle_radius_20_outline_707070"
+        android:drawableStart="@drawable/ic_baseline_lock_open_24"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="13dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/sp_rectangle_radius_20_gradient"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        app:backgroundTint="@null" />
+
+</LinearLayout>
